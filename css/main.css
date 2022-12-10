@@ -1,0 +1,35 @@
+header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #aaa;
+}
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaa;
+    font-size: 14px;
+}
+.container{
+    width: 83%;
+
+}
+.form-list   {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.form-list p {
+    color: #333;
+    font-size: 18px;
+}
+.form-inputs {
+    background: linear-gradient(#eee, #fff);
+}
+.btn {
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+    transition: all .3s;
+}
+.btn:hover {
+    box-shadow: 20px , 20px , 15px , #000;
+}

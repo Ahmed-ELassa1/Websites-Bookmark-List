@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container pt-1">
+            <h2 class="text-capitalize fw-bold ms-4 my-5">bookmarker</h2>
+            <hr>
+        </div>
+    </header>
+    <div class="container px-4">
+        <div class="form-list column">
+            <div class="formInner text-center p-5 ">
+                <h3 class="fs-4 fw-bold">Bookmark your favorite sites</h3>
+                <p class="text-capitalize fw-bold mt-5 mb-2">site name</p>
+                <input type="text"  class="form-control form-control-sm" id="siteName" placeholder="Bookmarker Name"
+                    required>
+                <input type="text" onkeypress="displayWarning()" class="form-control bg-warning text-center text-white mt-1" style="display: none;" id="siteNameWarnig"
+                    Disabled readonly value="please enter Bookmarker Name">
+                <p class="text-capitalize fw-bold mt-3 mb-2">site url</p>
+                <input type="text" class="form-control form-control-sm" id="siteUrl" placeholder="Website URL" required>
+                <input type="text" onkeypress="displayWarning()" class="form-control bg-warning text-center text-white mt-1" style="display: none;" id="siteUrlWarnig"
+                Disabled readonly value="please enter site Url">
+                <button type="button"  onclick="addBookmark()" class="btn btn-primary mt-4">submit</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container px-4">
+        <div class="fomrDisplay mt-4 px-2" id="bookmarkBody">
+
+        </div>
+
+
+
+
+        <footer>
+            <div class="container">
+                <hr>
+                <p class="text-capitalize fw-bold ms-4 py-3">© 2019 Bookmarker Inc.</p>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
